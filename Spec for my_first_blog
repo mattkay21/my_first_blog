@@ -1,0 +1,22 @@
+Spec for my_first_blog
+
+PHASE 1
+
+author
+	Basic blog with REST crud functions. 
+		Author can sign in 
+			Write a new article
+			Update or delete existing articles
+
+reader 
+	view a list or articles (partially) on the home page
+		5 at a time and trimmed to a teaser size
+	click the headline or the (more) link to view the article in full
+
+PHASE 2
+
+	articles can be tagged
+		articles can be organised by tags
+	authors can upload images 
+	Readers can comment
+	Getting in touch page that emails a support email address

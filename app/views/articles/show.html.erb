@@ -1,0 +1,19 @@
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @article.content %>
+</p>
+<% if @article.comments.count > 0 %>
+	<p>
+	Comments
+	</p>
+<%= render @article.comments %>
+<% end %>
+<%= render 'comments/comment_form' %>
+
+<%= link_to('Edit', edit_article_path(@article)) %> ||
+<%= link_to('Back', articles_path) %>
